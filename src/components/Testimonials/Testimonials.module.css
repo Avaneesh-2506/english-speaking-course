@@ -1,0 +1,157 @@
+.testiSection {
+  background-color: var(--white);
+  overflow: hidden;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: var(--primary-dark);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.carouselContainer {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slideItem {
+  min-width: 100%;
+  padding: 0 1rem;
+}
+
+.testiCard {
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2rem;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  position: relative;
+  border: 1px solid var(--border);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteIcon {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  color: var(--light-gray);
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+}
+
+.stars {
+  color: #fbbf24;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.testiText {
+  font-size: 1.15rem;
+  color: var(--text-body);
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.studentInfo {
+  margin-top: auto;
+}
+
+.studentName {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.batchName {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.navControl {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--primary);
+  transition: var(--transition);
+  z-index: 10;
+}
+
+.navControl:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--border);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+  padding: 0;
+}
+
+.activeDot {
+  background-color: var(--accent);
+  width: 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  .testiCard {
+    padding: 2.5rem 1.5rem;
+  }
+  .navControl {
+    display: none;
+  }
+  .testiText {
+    font-size: 1.05rem;
+  }
+}

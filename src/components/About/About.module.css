@@ -1,0 +1,134 @@
+.about {
+  background-color: var(--white);
+}
+
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.leftCol {
+  width: 100%;
+}
+
+.imageWrapper {
+  width: 100%;
+  aspect-ratio: 600/700;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.imgPlaceholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #dbe4f0, #bccde0);
+  border-radius: var(--radius-lg);
+  border: 2px dashed var(--primary-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-muted);
+  gap: 1rem;
+  box-shadow: var(--shadow-md);
+  font-size: 14px;
+}
+
+.ownerImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.ownerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ownerName {
+  font-size: 1.75rem;
+  color: var(--text-dark);
+}
+
+.qualBadge {
+  display: inline-block;
+  background-color: var(--light-gray);
+  color: var(--primary);
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.bioText {
+  font-size: 1.1rem;
+  color: var(--text-body);
+  line-height: 1.8;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.highlights li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.highlights svg {
+  color: var(--success);
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.locationBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+  .aboutContainer {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .imageWrapper {
+    aspect-ratio: 16/9;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
