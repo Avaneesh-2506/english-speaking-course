@@ -12,7 +12,7 @@ export const SITE_DATA = {
   whatsapp: "919305342586",
   timings: "7:30 AM – 7:30 PM (Mon–Sat)",
   location: "Naka, Ayodhya, Uttar Pradesh",
-  ownerName: "Your Name Here",
+  ownerName: "Mr. Mukesh",
   ownerQual: "Graduate, Dr. B.R. Ambedkar University, Agra",
   ownerBio: "With years of experience in spoken English coaching, our founder has helped hundreds of students from Ayodhya speak fluently and confidently. His teaching approach blends grammar-free conversational learning with personality development.",
 
@@ -54,7 +54,7 @@ export const SITE_DATA = {
 
   testimonials: [
     { name: "Rahul Verma",     batch: "Batch 2024",  rating: 5, text: "Meri English bilkul zero thi, ab main confidently interview deta hun. Best decision of my life!" },
-    { name: "Priya Singh",     batch: "Batch 2023",  rating: 5, text: "Teaching style bahut acha hai. Hindi mein samjhate hain isliye kuch bhi complicated nahi lagta." },
+    { name: "Mohini NIshad",   batch: "Batch 2025",  rating: 5, text: "Teaching style bahut acha hai. Hindi mein samjhate hain isliye kuch bhi complicated nahi lagta." },
     { name: "Amit Kumar",      batch: "Batch 2024",  rating: 5, text: "3 months mein itni improvement aayi jo 3 saal mein nahi aayi thi. Highly recommend!" },
     { name: "Neha Agarwal",    batch: "Batch 2023",  rating: 5, text: "Group discussion aur mock interview practice ne mujhe campus placement mein bahut help ki." },
     { name: "Vishal Yadav",    batch: "Batch 2024",  rating: 5, text: "Affordable fees mein world-class teaching. Ayodhya ka best English coaching center!" },
