@@ -12,7 +12,7 @@ export const SITE_DATA = {
   whatsapp: "919305342586",
   timings: "7:30 AM – 7:30 PM (Mon–Sat)",
   location: "Naka, Ayodhya, Uttar Pradesh",
-  ownerName: "Mr. Mukesh",
+  ownerName: "Mr. Mukesh Gupta",
   ownerQual: "Graduate, Dr. B.R. Ambedkar University, Agra",
   ownerBio: "With years of experience in spoken English coaching, our founder has helped hundreds of students from Ayodhya speak fluently and confidently. His teaching approach blends grammar-free conversational learning with personality development.",
 
