@@ -1,13 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Hero.module.css';
-import heroImg from '../../assets/hero.png';
+import heroImg1 from '../../assets/hero1.png';
+import heroImg2 from '../../assets/hero2.png';
 
 const words = ["Fluent", "Confident", "Professional", "Unstoppable"];
+const heroImages = [heroImg1, heroImg2];
 
 const Hero = () => {
   const [currentWord, setCurrentWord] = useState('');
   const [wordIndex, setWordIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const slideTimer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % heroImages.length);
+    }, 4000);
+    return () => clearInterval(slideTimer);
+  }, []);
   
   // Real image variable logic
   const hasImage = true;
@@ -64,7 +74,14 @@ const Hero = () => {
         <div className={`fadeUp visible ${styles.rightCol}`}>
           <div className={styles.imageWrapper}>
             {hasImage ? (
-              <img src={heroImg} alt="Hero" className={styles.heroImage} />
+              heroImages.map((img, idx) => (
+                <img 
+                  key={idx} 
+                  src={img} 
+                  alt={`Hero ${idx + 1}`} 
+                  className={`${styles.heroImage} ${idx === currentSlide ? styles.heroImageActive : ''}`} 
+                />
+              ))
             ) : (
               <div className={styles.imgPlaceholder}>
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
