@@ -33,7 +33,14 @@ const About = () => {
           <h2 className={styles.sectionTitle}>About Us</h2>
           <div className={styles.ownerInfo}>
             <h3 className={styles.ownerName}>{SITE_DATA.ownerName}</h3>
-            <span className={styles.qualBadge}>{SITE_DATA.ownerQual}</span>
+            <span className={styles.qualBadge}>
+              {SITE_DATA.ownerQual.split('\n').map((line, index, array) => (
+                <React.Fragment key={index}>
+                  {line}
+                  {index < array.length - 1 && <br />}
+                </React.Fragment>
+              ))}
+            </span>
           </div>
           
           <p className={styles.bioText}>{SITE_DATA.ownerBio}</p>

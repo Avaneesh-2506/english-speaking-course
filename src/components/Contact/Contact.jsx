@@ -63,26 +63,26 @@ const Contact = () => {
               <form ref={formRef} onSubmit={handleSubmit} className={styles.contactForm}>
                 <div className={styles.formGroup}>
                   <label htmlFor="user_name">Full Name *</label>
-                  <input type="text" id="user_name" name="user_name" placeholder="John Doe" />
+                  <input type="text" id="user_name" name="user_name" placeholder="Your Name" />
                   {errors.user_name && <span className={styles.errorText}>{errors.user_name}</span>}
                 </div>
                 
                 <div className={styles.formRow}>
                   <div className={styles.formGroup}>
                     <label htmlFor="user_phone">Phone Number *</label>
-                    <input type="tel" id="user_phone" name="user_phone" placeholder="9876543210" />
+                    <input type="tel" id="user_phone" name="user_phone" placeholder="Your number" />
                     {errors.user_phone && <span className={styles.errorText}>{errors.user_phone}</span>}
                   </div>
                   
                   <div className={styles.formGroup}>
                     <label htmlFor="user_email">Email (Optional)</label>
-                    <input type="email" id="user_email" name="user_email" placeholder="john@example.com" />
+                    <input type="email" id="user_email" name="user_email" placeholder="Your Email" />
                   </div>
                 </div>
                 
                 <div className={styles.formGroup}>
                   <label htmlFor="message">Message *</label>
-                  <textarea id="message" name="message" rows="4" placeholder="I want to join the spoken English batch..."></textarea>
+                  <textarea id="message" name="message" rows="4" placeholder="Write your message..."></textarea>
                   {errors.message && <span className={styles.errorText}>{errors.message}</span>}
                 </div>
                 
@@ -128,7 +128,7 @@ const Contact = () => {
                   <h4>Call Us</h4>
                   <div className={styles.phoneLinks}>
                     <a href={`tel:+${SITE_DATA.phones[0]}`}>+91 {SITE_DATA.phones[0]}</a>
-                    <a href={`tel:+${SITE_DATA.phones[1]}`}>{SITE_DATA.phones[1]}</a>
+                    <a href={`tel:+${SITE_DATA.phones[1]}`}>+91 {SITE_DATA.phones[1]}</a>
                   </div>
                 </div>
               </div>
