@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avaneesh-2506.github.io/english-speaking-course/sitemap.xml
