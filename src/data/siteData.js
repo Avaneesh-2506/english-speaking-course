@@ -53,7 +53,7 @@ export const SITE_DATA = {
   ],
 
   testimonials: [
-    { name: "Mohini NIshad",   batch: "Batch 2025",  rating: 5, text: "Teaching style bahut acha hai. Hindi mein samjhate hain isliye kuch bhi complicated nahi lagta." },
+    { name: "Mohini Nishad",   batch: "Batch 2025",  rating: 5, text: "Teaching style bahut acha hai. Hindi mein samjhate hain isliye kuch bhi complicated nahi lagta." },
     { name: "Gaurav",          batch: "Batch 2024",  rating: 5, text: "Meri English bilkul zero thi, ab main confidently interview deta hun. Best decision of my life!" },
     { name: "Pooja",           batch: "Batch 2024",  rating: 5, text: "3 months mein itni improvement aayi jo 3 saal mein nahi aayi thi. Highly recommend!" },
     { name: "Neha Agarwal",    batch: "Batch 2023",  rating: 4, text: "Group discussion aur mock interview practice ne mujhe campus placement mein bahut help ki." },
