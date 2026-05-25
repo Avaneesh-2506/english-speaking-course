@@ -60,7 +60,7 @@ const Contact = () => {
             <div className={styles.formCard}>
               <h3 className={styles.formTitle}>Send us a message</h3>
               
-              <form ref={formRef} onSubmit={handleSubmit} className={styles.contactForm}>
+              <form ref={formRef} onSubmit={handleSubmit} className={styles.contactForm} netlify>
                 <div className={styles.formGroup}>
                   <label htmlFor="user_name">Full Name *</label>
                   <input type="text" id="user_name" name="user_name" placeholder="Your Name" />
