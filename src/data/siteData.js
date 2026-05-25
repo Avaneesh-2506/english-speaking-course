@@ -2,6 +2,7 @@ import img1 from '../assets/img1.jpeg';
 import img2 from '../assets/img2.jpeg';
 import img3 from '../assets/img3.jpeg';
 import img4 from '../assets/img4.jpeg';
+import img5 from '../assets/img5.jpeg';
 
 export const SITE_DATA = {
   name: "iSpeak Well English",
@@ -65,9 +66,9 @@ export const SITE_DATA = {
     { src: img1, caption: "Classroom Session" },
     { src: img2, caption: "Group Discussion Practice" },
     { src: img3, caption: "Batch 2024 Students" },
-    { src: img4, caption: "Public Speaking Practice" }
+    { src: img4, caption: "Public Speaking Practice" },
+    { src: img5, caption: "Workshop Session" }
     // { src: null, caption: "Batch 2024 Students" },
-    // { src: null, caption: "Workshop Session" }
   ],
 
   socialLinks: {

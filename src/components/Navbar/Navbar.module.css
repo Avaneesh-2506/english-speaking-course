@@ -28,7 +28,18 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
+
+.logoIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
 
 .accentText {
   color: var(--accent);

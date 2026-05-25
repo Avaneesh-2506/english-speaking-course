@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
+// import logoIcon from '../../assets/icon.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,7 +44,8 @@ const Navbar = () => {
     <header className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.navContainer}`}>
         <a href="#home" className={styles.logo} onClick={closeMenu}>
-          iSpeak <span className={styles.accentText}>Well</span>
+          {/* <img src={logoIcon} alt="Logo" className={styles.logoIcon} /> */}
+          <span>iSpeak <span className={styles.accentText}>Well</span></span>
         </a>
 
         {/* Desktop Nav */}
