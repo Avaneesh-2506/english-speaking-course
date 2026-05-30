@@ -15,7 +15,7 @@ export const SITE_DATA = {
   location: "Naka, Ayodhya, Uttar Pradesh",
   ownerName: "Mr. Mukesh Guptaa",
   ownerQual: "Graduated from, Dr. B.R. Ambedkar University, Agra\nMBA from Aligarh Muslim University",
-  ownerBio: "With 12 years of experience in spoken English coaching, we have helped hundreds of students from Ayodhya, they have become fluently and confidently in spoken english. Our teaching approach blends grammar-free conversational learning with personality development.",
+  ownerBio: "With 12+ Years of English Teaching Experience Successfully trained 500+ students in Ayodhya. They have become fluent and confident in the English language. Our teaching approach blends grammar free conversational Learning with personality development.",
 
   stats: [
     { value: 500, suffix: "+", label: "Students Enrolled" },
@@ -26,9 +26,9 @@ export const SITE_DATA = {
 
   courses: [
     { icon: "🗣️", title: "Spoken English",            desc: "Basic to advanced level. Grammar-free conversational method. Learn to speak in 90 days." },
-    { icon: "🎤", title: "Public Speaking",           desc: "We release stage fear, build confident and make student fluent with powerful technique" },
-    { icon: "💼", title: "Interview Prepration",      desc: "We build strong fundation for interview prepration, Mock interviews, HR question practice, and body language training." },
-    { icon: "🧠", title: "Personality Development",   desc: "All over development, Soft skills, grooming, etiquette, and professional communication." },
+    { icon: "🎤", title: "Public Speaking",           desc: "We help students overcome stage fear and become confident, fluent speakers through effective speaking techniques." },
+    { icon: "💼", title: "Interview Prepration",      desc: "We build a strong foundation for interview preparation through mock interviews, HR question practice, and body language training." },
+    { icon: "🧠", title: "Personality Development",   desc: "Overall development, soft skills, grooming, etiquette, and professional communication." },
     { icon: "👥", title: "Group Discussion",          desc: "Question & Answer dicussion, Topic dicsussion, Debate presentation, Structured GD practice for students and job aspirants." },
     { icon: "🎯", title: "Voice & Accent",            desc: "Correct pronunciation, accent clarity, and neutral speech patterns." },
     { icon: "📋", title: "Presentation Skills",       desc: "Slide decks, delivery, handling questions, and business presentations." },
