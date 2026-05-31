@@ -7,7 +7,7 @@ import img5 from '../assets/img5.jpeg';
 export const SITE_DATA = {
   name: "iSpeak Well English",
   tagline: "Speak English. Build Confidence. Change Your Life.",
-  taglineHindi: "And change you life.",
+  taglineHindi: "And change your life.",
   email: "ispeakwellenglish@gmail.com",
   phones: ["9170255516", "9305342586"],
   whatsapp: "919170255516",

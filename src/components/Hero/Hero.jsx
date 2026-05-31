@@ -62,7 +62,7 @@ const Hero = () => {
           </h1>
           
           <p className={styles.hindiSubtext}>
-            And change you life. Join Ayodhya's best spoken English institute.
+            And change your life. Join Ayodhya's best spoken English institute.
           </p>
 
           <div className={styles.ctaGroup}>
