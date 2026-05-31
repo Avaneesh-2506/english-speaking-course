@@ -7,7 +7,7 @@ import img5 from '../assets/img5.jpeg';
 export const SITE_DATA = {
   name: "iSpeak Well English",
   tagline: "Speak English. Build Confidence. Change Your Life.",
-  taglineHindi: "Angrezi bolna seekho, zindagi badlo.",
+  taglineHindi: "And change you life.",
   email: "ispeakwellenglish@gmail.com",
   phones: ["9170255516", "9305342586"],
   whatsapp: "919170255516",
@@ -15,12 +15,12 @@ export const SITE_DATA = {
   location: "Naka, Ayodhya, Uttar Pradesh",
   ownerName: "Mr. Mukesh Guptaa",
   ownerQual: "Graduated from, Dr. B.R. Ambedkar University, Agra\nMBA from Aligarh Muslim University",
-  ownerBio: "With 12+ Years of English Teaching Experience Successfully trained 500+ students in Ayodhya. They have become fluent and confident in the English language. Our teaching approach blends grammar free conversational Learning with personality development.",
+  ownerBio: "12+ Years of English Teaching Experience Successfully trained 500+ students in Ayodhya. They have become fluent and confident in the English language. Our teaching approach blends grammar free conversational Learning with personality development.",
 
   stats: [
     { value: 500, suffix: "+", label: "Students Enrolled" },
     { value: 12,  suffix: "+", label: "Years Experience"  },
-    { value: 30,  suffix: "+", label: "Batches Completed" },
+    { value: 120,  suffix: "+", label: "Batches Completed" },
     { value: 95,  suffix: "%", label: "Success Rate"      }
   ],
 

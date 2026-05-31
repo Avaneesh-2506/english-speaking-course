@@ -62,7 +62,7 @@ const Hero = () => {
           </h1>
           
           <p className={styles.hindiSubtext}>
-            Angrezi bolna seekho, zindagi badlo. Join Ayodhya's best spoken English coaching.
+            And change you life. Join Ayodhya's best spoken English institute.
           </p>
 
           <div className={styles.ctaGroup}>
